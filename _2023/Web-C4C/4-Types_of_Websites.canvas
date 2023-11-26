@@ -11,6 +11,7 @@
 		{"id":"76a1af8047e86bba","type":"file","file":"_2023/Web-C4C/Assets/4-types_websites/4-gdocs.png","x":420,"y":460,"width":515,"height":360}
 	],
 	"edges":[
-		{"id":"0b96c18dfa3261b7","fromNode":"b039f4fab038d14b","fromSide":"right","toNode":"dde27b836f106159","toSide":"left","fromEnd":"arrow"}
+		{"id":"5f1bf4181defdaab","fromNode":"d1ce4cfcfce8d640","fromSide":"bottom","toNode":"b039f4fab038d14b","toSide":"top"},
+		{"id":"32934048dce6cac8","fromNode":"d1ce4cfcfce8d640","fromSide":"bottom","toNode":"dde27b836f106159","toSide":"top"}
 	]
 }
