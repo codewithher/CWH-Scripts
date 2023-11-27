@@ -285,11 +285,12 @@ notes:
 >
 
 notes:
-[Template](https://docs.google.com/document/d/1re3KItx1baCJy7j0T21a3aVNsxjaJNiFn-8xIdT2__Q/edit?usp=sharing)
+Let's fill out some questions we should answer before we build our website. Check out this [Template](https://docs.google.com/document/d/1re3KItx1baCJy7j0T21a3aVNsxjaJNiFn-8xIdT2__Q/edit?usp=sharing) or write down your answers on a different sheet of paper
+
 - Why buy cookies
 	- They’re delicious and they support local troops!
 - Who are you?
-	- I’ve been a scout for 5 years. I like to ride bikes and make websites and I want to sell 4 packages of cookies! 
+	- I’ve been a scout for x years. I like to ride bikes and make websites and I want to sell 4 packages of cookies! 
 - Words
 	- Satisfy
 	- Delicious
@@ -354,6 +355,7 @@ notes:
 ---
 
 ### User flow
+
 > **[User Flow](https://careerfoundry.com/en/blog/ux-design/what-are-user-flows/)**: diagrams that display the movements a user makes when using a product.
 
 notes:
@@ -363,6 +365,7 @@ This is similar to writing an outline before you write an essay or report. You w
 
 ---
 ### Prototype
+
 > **[Prototype](https://www.figma.com/resource-library/what-is-prototyping/)**: ensure your design works in the hands of a user.
 
 notes:
@@ -402,11 +405,91 @@ Sometimes we get lucky and our user flow is very similar to the prototype. For u
 ---
 ## Hierarchy
 
+![Tree](https://media.giphy.com/media/Vi5TUmZz8LZb95j2xb/giphy.gif)
+
+notes:
+HTML Hierarchy tree is a way of describing how different parts of an HTML page belong to another part.
+
+We call each of these parts, elements. Elements can be nested inside of each other. The best mental model to use for this is a tree. Notice how each leaf belongs to a branch, each branch belongs to a bigger branch, and every branch belongs to the trunk? The same is true for HTML elements.
+
+This makes it really easy for us to see what content belongs to what branch.
+
+Let's breakdown our website into it's hierarchical parts.
+- Notice the collapse arrows? we can click this to collapse every sub-branch that belongs to this element.
+- This makes it a lot easier for us to see
+
 ---
 ## Tags
 
+notes:
+Formally, elements refer to the idea of a smaller part of our HTML tree. We call the actual code for each element, a tag. That's what we see inside the `<>`. For our purposes, we can consider tags to be the same as elements.
+
 ---
-## Content Tags
+### Anatomy of a tag
+
+```HTML
+<tag></tag>
+
+<tag>content</tag>
+
+<tag attribute="value"></tag>
+
+<tag attribute="value">content</tag>
+```
+
+notes:
+Each tag is made of 3 parts. The tag name, the attributes, and the content. 
+
+---
+### Types of tags
+
+There are [142 different HTML tags](https://devdevout.com/html/how-many-html-tags-are-there) but generally there are only about 3 broad categories.
+
+Purpose:
+- Structure
+- Content
+- Action
+
+---
+### Structure
+
+- helps group elements together
+
+> [!Activity]
+> Check out this [codepen](https://codepen.io/totally-not-frito-lays/pen/xxMJbgm?editors=1000)!
+> - Try moving the content tags around to see how it changes
+> - Pay attention to: 
+> 	- `<main>`
+> 	- `<div>`
+> 	- `<section>`
+> 	- `<ul>`
+> 	- `<body>`
+
+---
+### Content
+
+- what fills the website itself
+
+> [!Activity]
+> Check out this [codepen](https://codepen.io/totally-not-frito-lays/pen/RwvBNjP)!
+> - Try changing the content of each tag
+> - Pay attention to:
+> 	- `h1`
+> 	- `p`
+> 	- `span`
+> 	- `img`
+
+
+---
+### Action
+
+- triggers some sort of event
+
+> [!Action]
+> Check out this [codepen](https://codepen.io/totally-not-frito-lays/pen/wvNxBPg?editors=1111)!
+> - Try clicking on the links
+> - Notice how the `a` tag can be nested inside other tags?
+> - Look for the script tag!
 
 ---
 ## Hero Banner

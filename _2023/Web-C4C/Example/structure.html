@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta data -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <style>
+    * {
+      --c1: hsl(0, 100%, 50%);
+      --c2: hsl(50, 100%, 50%);
+      --c3: hsl(100, 100%, 50%);
+      --c4: hsl(150, 100%, 50%);
+      --c5: hsl(200, 100%, 50%);
+      --c6: hsl(250, 100%, 50%);
+    }
+
+    body, main, section, div, custom-element {
+      border: 4px;
+      border-radius: 2px;
+      border-style: solid;
+    }
+
+    body {
+      background: white;
+    }
+
+    main {
+      border-color: var(--c1);
+      background-color: hsl(from var(--c1) h s l / 25% );
+    }
+
+    section {
+      border-color: var(--c6);
+      background-color: hsl(from var(--c6) h s l / 25% );
+    }
+
+    div {
+      border-color: var(--c3);
+      background-color: hsl(from var(--c3) h s l / 25% );
+    }
+
+    custom-tag {
+      border-color: var(--c4);
+      background-color: hsl(from var(--c4) h s l / 25% );
+    }
+
+    ul {
+      border-color: var(--c5);
+      background-color: hsl(from var(--c5) h s l / 25% );
+    }
+  </style>
+</head>
+<body>
+  <h1>Body Content</h1>
+  <!-- Content -->
+  <main>
+    <h2>Main Content</h2>
+    <!-- Primary Content -->
+    <section>
+      <h3>Section Content</h3>
+      <!-- Secondary Content -->
+      <div>
+        <h3>Div Content</h3>
+        <!-- Other Content -->
+      </div>
+      <custom-tag>
+        <h3>Custom Content</h3>
+        <!-- Other Content -->
+      </custom-tag>
+      <ul>
+        List Content
+        <!-- List Content -->
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
