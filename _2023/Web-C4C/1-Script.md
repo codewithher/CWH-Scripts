@@ -406,7 +406,7 @@ Sometimes we get lucky and our user flow is very similar to the prototype. For u
 - CSS
 - JavaScript
 ---
-## Hierarchy
+## HTML Hierarchy
 
 ![Tree](https://media.giphy.com/media/Vi5TUmZz8LZb95j2xb/giphy.gif)
 
@@ -422,7 +422,7 @@ Let's breakdown our website into it's hierarchical parts.
 - This makes it a lot easier for us to see
 
 ---
-## Tags
+### Tags
 
 notes:
 Formally, elements refer to the idea of a smaller part of our HTML tree. We call the actual code for each element, a tag. That's what we see inside the `<>`. For our purposes, we can consider tags to be the same as elements.
@@ -435,13 +435,15 @@ Formally, elements refer to the idea of a smaller part of our HTML tree. We call
 
 <tag>content</tag>
 
-<tag attribute="value"></tag>
+<tag properties="value"></tag>
 
-<tag attribute="value">content</tag>
+<tag properties="value">content</tag>
 ```
 
 notes:
-Each tag is made of 3 parts. The tag name, the attributes, and the content. 
+Each tag is made of 3 parts. The tag name, the properties, and the content. Properties describe how the tag should behave and look. 
+
+All tags have default properties that we can override but typically they have those default properties to fulfill a specific task.
 
 ---
 ### Types of tags
@@ -452,6 +454,9 @@ Purpose:
 - Structure
 - Content
 - Action
+
+notes:
+It turns out that there are a lot of different types of tasks to fulfill for websites. 142 of them! Thankfully we don't always need to use that many. Something else that's nice is that there's only really 3 categories that we care about. Structure, Content, and Action tags.
 
 ---
 ### Structure
@@ -536,7 +541,7 @@ Let's look at our website and see if our Hero Banner fulfills all 3 items.
 
 ---
 
-### Update your Hero Banner!
+### 🎯 Update your Hero Banner!
 
 > [!Activity] 
 > Go to [Replit](https://replit.com/@HigginsCodes/Web-C4C) and update the hero banner anywhere it says `(CHANGE ME)`
@@ -583,6 +588,63 @@ The magic number we shoot for is less than 5mb.
 > Change the profile picture at the bottom of the website!
 
 ---
+
+## Call to Action
+
+![bat symbol](https://media.giphy.com/media/tsa1OggzHsc9O/giphy.gif)
+
+notes:
+Next up is the call to action!
+
+---
+
+### CTA Definition
+
+> **[Call to Action](https://blog.hubspot.com/marketing/call-to-action-examples)**: part of the website that encourages the audience to do something!
+
+notes:
+This is a marketing tool that is used to get the audience to do something! In our case, we want the users to buy cookies so we need to sprinkle in "suggestions" about what we want them to do.
+
+---
+
+### CTA types
+| | |
+| --- | --- |
+| Button | ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWFobzMzNm5wc3h6OHY4em1tdWk5em5jZXk3YnJwbHM3YXBnamc0biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/o1Ge7taRvlpHd5zAFs/giphy.gif)|
+| Banner | ![](./Assets/1-Script/1-Activity-Banner.png) |
+| Pop-up | ![](https://media.giphy.com/media/26n3JiXJYSF3nOTL2/giphy.gif) |
+
+notes:
+There are a few different types of Call to Actions, but generally we have these 3 options. One is a button with a link to do something or visit another page. Then we have Banners which are a persistent part of the website that let's us know when something is happening. Finally we have pop-ups or slide-ins. These are kinda spammy and normally force us to do something about it. It's not a really good user experience but it's good at forcing people to take action.
+
+---
+
+### What makes a good CTA?
+
+1. It's simple
+2. Uses action verbs
+3. Creates a sense of urgency
+4. Is creative
+
+notes:
+[Source](https://blog.hubspot.com/marketing/call-to-action-examples)
+
+The slide below is currently hidden, this would require adding a new activity video.
+
+### 🎯 Can you spot all the CTAs?
+
+> [!Activity]
+> Look for anything on our website that has a call to action and count them up!
+> 
+
+---
+
+### 🎯 Update Buy/Shop Buttons
+
+> [!Activity]
+> Update the buttons to point to your personal cookie pages.
+
+---
 ## 📍 Let's build
 - ~~HTML~~
 - [🎨 CSS]()
@@ -592,14 +654,16 @@ The magic number we shoot for is less than 5mb.
 - JavaScript
 
 ---
-### Selectors
+## Selectors
+
+
 
 ---
 
-### Theming
+## Theming
 
 ---
-### Design Revisited
+## Design Revisited
 
 
 ---
@@ -613,16 +677,16 @@ The magic number we shoot for is less than 5mb.
 	- Conditionals
 	- Web Components
 ---
-### Interactivity
+## Interactivity
 
 ---
-### Data Structures
+## Data Structures
 
 ---
-### Loops
+## Loops
 
 ---
-### Conditionals
+## Conditionals
 
 ---
-### Web Components
+## Web Components
