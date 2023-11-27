@@ -510,6 +510,14 @@ Purpose:
 - JavaScript
 
 ---
+### Selectors
+
+---
+
+### Theming
+
+---
+### Design Revisited
 
 
 ---
@@ -522,3 +530,17 @@ Purpose:
 	- Loops
 	- Conditionals
 	- Web Components
+---
+### Interactivity
+
+---
+### Data Structures
+
+---
+### Loops
+
+---
+### Conditionals
+
+---
+### Web Components
