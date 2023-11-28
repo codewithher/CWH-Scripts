@@ -110,12 +110,31 @@ It turns out that cookies are more like websites than you think.
 
 - Cookies can be defined with 3 characteristics
 	- What they're made of
+		- Structure
+			- Butter
+			- Flour
+			- Eggs
+		- Content
+			- Sugar
+			- Chocolate Chip
+			- Peanut Butter
 	- How they look
+		- Shape
+		- Color
+		- Arrangement of content
 	- The science we used to make them
+		- Recipe
+		- Time spent in the oven
+		- Effects
+			- how soft or crunchy it is
+			- how hot it is
 - Websites can also be defined by 3 characteristics
 	- What they're made of
+		- These ingredients are described by a file called HTML
 	- How they look
+		- The appearance are described in a file called CSS
 	- The science we used to make them
+		- The science and movement and characteristics of the cookie can be changed with JavaScript
 
 ![[2-Website_Analogy.canvas|Website-Analogy]]
 
@@ -194,6 +213,9 @@ To sell cookies > cookies support my troop > my troop gets to do more cool stuff
 
 We are building a **marketing** website to leverage **e-commerce** to sell cookies.
 
+notes:
+So how do websites help? Well, it gives us a platform. What we're officially building is a marketing website to leverage e-commerce to sell cookies.
+
 ---
 ### How do do websites help? 
 
@@ -202,7 +224,7 @@ We are building a **marketing** website to leverage **e-commerce** to sell cooki
 > **[Marketing](https://www.ama.org/the-definition-of-marketing-what-is-marketing/)**: activity and processes for creating, communicating, delivering, and exchanging offerings that have value for customers.
 
 notes:
-they help by giving us a platform to leverage marketing strategies. that is, the process of creating and selling goods to customers/consumers.
+Let's break down our goal. Marketing. Marketing is the process of selling goods to customers.
 
 ---
 ### How do do websites help? 
@@ -212,7 +234,7 @@ We are building a **marketing** website to leverage **e-commerce** to sell cooki
 > **[E-Commerce](https://sell.amazon.com/learn/what-is-ecommerce)**: is the trading of goods and services on the internet
 
 notes:
-They also allow us to take advantage of e-commerce, which is just using websites or apps to sell products.
+E-Commerce, that's the practice of selling goods on the internet.
 
 ---
 ### Why E-Commerce?
@@ -223,7 +245,11 @@ They also allow us to take advantage of e-commerce, which is just using websites
 > - Travel time is spent by shippers, not buyers
 
 notes:
-We are in the information era, which basically means everything is on the internet. It's far easier to find things on the internet than it is in-person. So we put it on the internet and we can enjoy the benefit of not having extra costs for just opening a store and to save time from having to travel to businesses in-person.
+But why sell it on the internet if it's easy enough to open up a stand and sell it ourselves?
+
+Well, we are in the information era, which basically means everything is on the internet. 
+
+It's far easier to find things on the internet than it is in-person. So we put it on the internet. This also has the benefit of not costing extra for overhead and upkeep, or the price of renting, utilities, and other things we need to spend money on to stay open). It also is more convenient because we can outsource shipping costs to somebody else.
 
 It's just easier for both sides.
 
@@ -242,7 +268,6 @@ It's just easier for both sides.
 	- User Flow and Prototype
 
 notes:
-
 Now that we know what problems we're solving, let's check out what types of websites there are.
 
 ---
@@ -253,6 +278,8 @@ notes:
 	- Static - it doesn't change much
 	- Dynamic - it changes a lot
 - Less of a categories question, more of a spectrum
+- Where does an e-commerce website land?
+	- somewhere in the middle
 
 ![4-Types_of_Websites](4-Types_of_Websites.canvas)
 
@@ -280,7 +307,9 @@ notes:
 >
 
 notes:
-Let's fill out some questions we should answer before we build our website. Check out this [Template](https://docs.google.com/document/d/1re3KItx1baCJy7j0T21a3aVNsxjaJNiFn-8xIdT2__Q/edit?usp=sharing) or write down your answers on a different sheet of paper
+Now that we know about why we would build a website and what types of websites there are. Let's write down some information about our goals, ourselves, and our product.
+
+To do this, check out this [Template](https://docs.google.com/document/d/1re3KItx1baCJy7j0T21a3aVNsxjaJNiFn-8xIdT2__Q/edit?usp=sharing) or write down your answers on a different sheet of paper.
 
 - Why buy cookies
 	- They’re delicious and they support local troops!
@@ -495,12 +524,22 @@ It turns out that there are a lot of different types of tasks to fulfill for web
 > - Look for the script tag!
 
 ---
+## Website Building Blocks
+
+![legos](https://media.giphy.com/media/5VFmHLRgsMtjwC2v3p/giphy.gif)
+
+notes:
+Now that we know some of the atomic pieces of our website, (that means) very small branches and leaves, we can start putting them together in building blocks of our website. That's kinda like mixing the dry ingredients together separately from the wet ingredients. Or making our cookie in pieces.
+
+By using building blocks, we can build faster and with more familiarity.
+
+---
 ## Hero Banner
 
 ![Hero](https://media.giphy.com/media/D4Z1jhPJYRZgggSGJl/giphy.gif)
 
 notes:
-Now that we know some of the building blocks / ingredients of our website, let's see how we can piece them together with a little bit of psychology to bring them into our website. 
+First up is the first thing that people see on a website. The Hero Banner.
 
 ---
 
@@ -591,7 +630,7 @@ The magic number we shoot for is less than 5mb.
 ![bat symbol](https://media.giphy.com/media/tsa1OggzHsc9O/giphy.gif)
 
 notes:
-Next up is the call to action!
+The next building block, is the call to action!
 
 ---
 
@@ -605,6 +644,7 @@ This is a marketing tool that is used to get the audience to do something! In ou
 ---
 
 ### CTA types
+
 | | |
 | --- | --- |
 | Button | ![button](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWFobzMzNm5wc3h6OHY4em1tdWk5em5jZXk3YnJwbHM3YXBnamc0biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/o1Ge7taRvlpHd5zAFs/giphy.gif)|
@@ -686,42 +726,6 @@ notes:
 After looking at the example, try looking through our website to see how we use selectors to theme everything!
 
 ---
-
-## Theming
-
-![Dark mode vs light mode](https://miro.medium.com/v2/resize:fit:1358/1*vR-c2OlaAJLjK9ue5785rA.gif)
-
-notes:
-
-When it comes to theming a website, there are a lot of things to consider. The biggest one is a sense of identity. Just like how Christmas cookies are characterized by green, red, and blue, we can characterize our website by picking a color palette!
-
----
-
-### Color Palettes
-
-![Color Palette Generator](https://media4.giphy.com/media/l3fQdAyBVHxTLMeTC/giphy.gif)
-
-notes:
-So when it comes to picking colors, it's generally best to start with fewer colors and work up from there.
-
----
-
-### How many colors do we have?
-
-> [!Question] 
-> How many colors do we use on our website?
-> (not including images)
-
-notes:
-
-We use 2 in the navigation bar, one for the primary font, one for the white font, one for the ribbon, one for the promotion banner shadow, one for the promotion banner font, two for the buttons, one for the cookie cards, one for the shadow, and two for the goals page. That's a total of 13 different colors.
-
-Well, at first glance, we use blues for the navigation, yellows for the CTAs, a red for the banner, and browns for the dividers. That's a color palette of 4.
-
-Imagine if we had a larger color palette!
-
----
-
 ### Optional CSS Variables Activity
 
 ![Variables Example](/Pasted%20image%2020231127155409.png)
@@ -732,10 +736,221 @@ Imagine if we had a larger color palette!
 
 ## Design Revisited
 
+### UI / UX
+
+User Interface / User Experience
+
+![ui/ux](https://miro.medium.com/v2/resize:fit:1400/1*grOJm4Al9dcs7K4i1Y7X7A.gif)
+
+notes:
+We've been getting busy building our blocks that we've forgotten to talk about the most important people to this project. The user. 
+
+We previously talked about how it can be easy for us as engineers to build what's easiest for us to build. 
+
+---
+### Easy as the flick of a switch?
+
+![Dark mode vs light mode](https://miro.medium.com/v2/resize:fit:1358/1*vR-c2OlaAJLjK9ue5785rA.gif)
+
+notes:
+
+When it comes to the design of a website, it can be tempting to think of it as just a visual problem. Just pick what looks nice *ya doyyyy*.
+
+However, once you dive into the world of user interfaces and user experience, you'll quickly find that there are other things to consider. There is so much here that there's an entirely separate professional field dedicated to just UI/UX.
+
+---
+## Identity
+
+1. [👉 Identity]()
+2. Readability
+3. Discoverability
+
+notes:
+Let's reel things back a little bit. When it comes to the UI/UX of our website, we should consider these 3 things. There's generally a lot more than these 3 things to consider, but we're focusing on these for now.
 
 ---
 
-## 📍JS - The Science
+### Identity
+
+> [Brand Identity](https://blog.hubspot.com/agency/develop-brand-identity)
+> 
+> | Logo | Product | Mission |
+> | --- | --- | --- | 
+> | 🌐 | 🍪 | 💸 |
+
+> [Visual Identity](https://www.wix.com/blog/visual-identity)
+> 
+>  | Colors | Fonts | Graphics |
+>  | --- | --- |  --- |
+>  | 🎨 | 🔡🅱 | 🌄
+
+notes:
+When it comes to identity, we can consider two types: brand identity and visual identity. Brand identity refers to our logo, a single image that represents what we do; our product, the thing we're offering; our mission, what we're hoping to achieve. This is typically handled by the business side of companies.
+
+Then there's the visual identity. This is defined by colors, fonts, and graphics. We already have the graphics chosen out for you since this is a cookie website, but let's talk about colors here and we'll talk about fonts in readability.
+
+---
+### How many colors do we have?
+
+> [!Question] 
+> How many colors do we use on our website?
+> (not including images)
+
+notes:
+
+We use 2 in the navigation bar, one for the primary font, one for the white font, one for the ribbon, one for the promotion banner shadow, one for the promotion banner font, two for the buttons, one for the cookie cards, one for the shadow, and two for the goals page. That's a total of 13 different colors. But we forgot to mention the most common color on the website, the white! 
+
+That brings us to a grand total of 5 colors in our color palette.
+
+---
+
+### Purpose of each color
+
+| Color     | Area             | UI Purpose    |
+| --------- | ---------------- | ------------- |
+| 🔵 Blue   | Navigation       | Brand Color   |
+| 🟡 Yellow | Buttons          | Actions       |
+| 🔴 Red    | Promotion Banner | Alert         |
+| 🟤 Brown  | Section Content  | Content       |
+| ⚪ White  | Background       | Neutral Color |
+
+
+notes:
+
+Well, at first glance, we use blues for the navigation, yellows for the CTAs, a red for the banner, browns for the dividers, and white for the background. To frame this more formally, we have a brand color of blue, secondary / action colors of yellow, alert colors for red, content colors for brown, and neutral color for the white.
+
+---
+
+### Color Palettes
+
+![Color Palette Generator](https://media4.giphy.com/media/l3fQdAyBVHxTLMeTC/giphy.gif)
+
+[Color Palette Generator](https://coolors.co/generate)
+
+notes:
+Now we know what purposes we're working to fill, let's figure out what colors we should actually use. There are so many color options we can pick from it can be hard to decide so I like to use a [color palette generator](https://coolors.co/generate).
+
+You can use any palette generator, I like this one because it's easy to use.
+
+Hit space bar to cycle the colors, the padlock to lock a color choice in and keep randomizing the others. When you're done, go ahead and click the `view` button and copy the `hsl` value.
+
+---
+
+### Color formats
+
+![Ice Blue](/Pasted%20image%2020231127185025.png)
+
+notes:
+There are tons of ways to describe colors. The human way is to describe it with words based on things we're familiar with like "ice blue" for a light blue. 
+
+Another common way is with RGB, which describes how much Red, Green, or Blue is in a color. 
+
+---
+### HSL
+
+![](/Pasted%20image%2020231127185243.png)
+
+Hue Saturation Lightness
+
+notes:
+The format I like to use is HSL, which stands for Hue, Saturation, Lightness. I really like to use this option because the first option, Hue, defines what general color on the color wheel we're looking at. Saturation tells us how vibrant the color is. Lightness will give us different variations of the color.
+
+Let's check out how we're using it in the website.
+
+Notice how each section of colors has a lot of colors in common. Notice how they all seem like they sort of belong next to each other. Using HSL helps us generate more colors that are part of the core color palette. That's a nice benefit we have as a result of using HSL. You don't get that benefit with other color formats.
+
+---
+
+### Choose your own color theme!
+
+> [!Activity]
+> Change the colors to your own theme!
+> - only change the hue values 
+> - `hsl(hue, saturation, lightnes)`
+
+notes:
+Now it's your turn to customize the website colors! I recommend you only change the hue value. You can use the palette generator but only use the hue. Alternatively you can simply change the first value and see what colors you end up with.
+
+---
+
+## Readability
+
+1. ~~Identity~~
+2. [👉 Readability]()
+3. Discoverability
+
+notes:
+Now we're done with colors and identity, let's check out readability.
+
+---
+
+### Readability definition
+
+> [Readability](https://anchordigital.com.au/articles/read-between-the-lines-why-legibility-and-readability-is-essential-for-ux#:~:text=Readability%20is%20the%20arrangement%20of,font%20are%20from%20one%20another.): Arrangement of fonts and words in order to make written content flow more easily.
+
+notes:
+Readability is about making sure your content is easy to read. The best content in the world isn't going to be worth a penny if nobody can understand it.
+
+That's why when we choose fonts and colors, we want to make sure we can still read what's going on.
+
+Normally this is where we'd talk about spacing, font size, kerning, padding, line length, and contrast, but the biggest thing is just check to make sure your eyes don't hurt when you're reading it. 
+
+If you want to really dig into the science of it, you can check out this article on the [user experience of readability](https://anchordigital.com.au/articles/read-between-the-lines-why-legibility-and-readability-is-essential-for-ux#:~:text=Readability%20is%20the%20arrangement%20of,font%20are%20from%20one%20another.).
+
+---
+### Fonts
+
+![fonts](https://media.giphy.com/media/strjD2DBeE3GXtSvXj/giphy.gif)
+
+notes:
+When it comes to fonts, we have a lot more options than you might think. Do you want to be formal or perhaps playful? Do you want to be casual or serious? Fonts can help a lot when deciding the tone and voice of your website. 
+
+---
+
+### Web-Safe Fonts
+
+> [Web-Safe Fonts](https://blog.hubspot.com/website/web-safe-html-css-fonts): fonts that can adapt to any browser, even if the aren't installed.
+
+notes:
+Typically we'd have to import in fancy fonts but that can cause issues on some browsers or devices that don't have that font installed. Honestly the web-safe fonts still give quite a lot of options.
+
+You can check out all the different font options on this [article from hubspot](https://blog.hubspot.com/website/web-safe-html-css-fonts).
+
+---
+
+### 🎯 Readability Font
+
+> [!Activity] 
+> Pick a new web-safe font! See the [full-list of web-safe fonts](https://anchordigital.com.au/articles/read-between-the-lines-why-legibility-and-readability-is-essential-for-ux#:~:text=Readability%20is%20the%20arrangement%20of,font%20are%20from%20one%20another).
+> - Make sure it's readable!
+
+---
+
+## Discoverability
+
+1. ~~Identity~~
+2. ~~Readability~~
+3. [👉 Discoverability]()
+
+notes:
+Next up is discoverability. Even good content won't mean anything if we can't find it! So let's make sure our pages are all easy to find.
+
+---
+
+### Navigation Bar
+
+![map](https://media.giphy.com/media/QmHmjEwtbQtlkOx8T1/giphy.gif)
+
+notes:
+Here's our third building block pattern. the navigation bar. This is the one stop shop to visit every webpage we have access to.
+
+These can be complicated to talk about and make so for now, I'll just show you what they look like and what they do.
+
+When we click this stack of bars, also known as a hamburger menu, notice how it slides out? that makes it accessible for us to see at any size. When we full screen this website, it'll sit at the top of the screen.
+
+---
+
+## 📍 JS - The Science
 - ~~HTML~~
 - ~~CSS~~
 - [🧙‍♂️ JavaScript]()
@@ -746,12 +961,46 @@ Imagine if we had a larger color palette!
 	- Web Components
 
 notes:
+Part of the reason the navigation bar was so complicated is because it uses this dark sorcery thing we call javascript.
+
+If you recall, from our mental model, javascript filled in the role of baking science. It changed the way that our cookie dough baked and looked. 
+
+In the same way, Javascript allows us to move around our navigation bar.
 
 ---
 ## Interactivity
 
+![](/Pasted%20image%2020231127200627.png)
+notes:
+Remember this? JavaScript is the sauce that allows us to move between static and dynamic webpages. Static sites have almost everything written with just HTML and CSS. Dynamic sites have a lot more that is controlled by JavaScript. Usually it's generated using a design pattern known as component-based design. We'll cover more of that later.
+
+---
+### Interactive JS Example
+- [Cloth Simulation](https://codepen.io/dissimulate/pen/nYQrNP)
+- [Star Wars Intro Crawl](https://codepen.io/TimPietrusky/pen/AGrxGb)
+- [Animated Snow](https://codepen.io/ste-vg/pen/GqaZbo)
+- [Typing Test](https://codepen.io/Hyperplexed/pen/MOObKy)
+
+notes:
+The important thing to know now about JavaScript is that we can do things like this.
+
 ---
 ## Data Structures
+
+- Variables
+- Arrays
+- JSON
+
+notes:
+When we use JavaScript, we have to keep in mind that what we're doing is describing in another language exactly what we want to accomplish. 
+
+Part of describing what we want to accomplish is describing how we should store information. 
+
+The way that we humans store information is by writing it down somewhere. Either in a note taking app or on paper.
+
+Machines do the same thing, except instead of paper or an app, they write their notes in memory. It's different from human memory because their memory is fixed and doesn't change as easily as ours does. 
+
+
 
 ---
 ## Loops

@@ -14,3 +14,4 @@ TODO
 - [ ] Rewrite images to use markdown links
 - [ ] Rescale images for readme
 - [ ] Rewrite images to take up their own line
+- [ ] Update promotion ribbon to be `hsl` instead of `hsla`
