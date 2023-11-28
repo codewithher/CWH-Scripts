@@ -1,8 +1,3 @@
----
-tags:
-  - projects
----
-
 ## 🍪 Coding 4 Cookies 🍪
 
 notes:
@@ -14,8 +9,8 @@ I know what you're thinking
 
 ---
 
+### I have no idea how to build a website!
 ![Confusion](https://media.giphy.com/media/pWdckHaBKYGZHKbxs6/giphy.gif)
-*I've never built a website before! I have no idea how??*
 
 ---
 ### ⛔ We aren't jumping Head First
@@ -392,7 +387,7 @@ Sometimes we get lucky and our user flow is very similar to the prototype. For u
 ![Build time](https://media.giphy.com/media/10nUOx7fvLEKpG/giphy.gif)
 
 ---
-## 📍 Let's build
+## 📍 HTML - Ingredients
 - [🏗️ HTML]()
 	- Hierarchy
 	- Tags
@@ -550,7 +545,7 @@ Let's look at our website and see if our Hero Banner fulfills all 3 items.
 ---
 ## Images
 
-![cookies](https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=1065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+![cookies | 700px](https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=1065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 notes:
 Now we're onto images! If pictures are worth a thousand words, we should remember to use pictures on websites!
@@ -584,7 +579,9 @@ The magic number we shoot for is less than 5mb.
 ### 🎯 Pick your avatar
 
 > [!Activity]
+> 
 > ![Avatar | 700px](./Assets/1-Script/1-Activity-Image.png)
+> 
 > Change the profile picture at the bottom of the website!
 
 ---
@@ -610,9 +607,9 @@ This is a marketing tool that is used to get the audience to do something! In ou
 ### CTA types
 | | |
 | --- | --- |
-| Button | ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWFobzMzNm5wc3h6OHY4em1tdWk5em5jZXk3YnJwbHM3YXBnamc0biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/o1Ge7taRvlpHd5zAFs/giphy.gif)|
-| Banner | ![](./Assets/1-Script/1-Activity-Banner.png) |
-| Pop-up | ![](https://media.giphy.com/media/26n3JiXJYSF3nOTL2/giphy.gif) |
+| Button | ![button](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWFobzMzNm5wc3h6OHY4em1tdWk5em5jZXk3YnJwbHM3YXBnamc0biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/o1Ge7taRvlpHd5zAFs/giphy.gif)|
+| Banner | ![banner](./Assets/1-Script/1-Activity-Banner.png) |
+| Popup | ![popup](https://media.giphy.com/media/26n3JiXJYSF3nOTL2/giphy.gif) |
 
 notes:
 There are a few different types of Call to Actions, but generally we have these 3 options. One is a button with a link to do something or visit another page. Then we have Banners which are a persistent part of the website that let's us know when something is happening. Finally we have pop-ups or slide-ins. These are kinda spammy and normally force us to do something about it. It's not a really good user experience but it's good at forcing people to take action.
@@ -629,14 +626,6 @@ There are a few different types of Call to Actions, but generally we have these 
 notes:
 [Source](https://blog.hubspot.com/marketing/call-to-action-examples)
 
-The slide below is currently hidden, this would require adding a new activity video.
-
-### 🎯 Can you spot all the CTAs?
-
-> [!Activity]
-> Look for anything on our website that has a call to action and count them up!
-> 
-
 ---
 
 ### 🎯 Update Buy/Shop Buttons
@@ -645,7 +634,7 @@ The slide below is currently hidden, this would require adding a new activity vi
 > Update the buttons to point to your personal cookie pages.
 
 ---
-## 📍 Let's build
+## 📍 CSS - The Style
 - ~~HTML~~
 - [🎨 CSS]()
 	- Selectors
@@ -653,21 +642,100 @@ The slide below is currently hidden, this would require adding a new activity vi
 	- Design Revisited
 - JavaScript
 
+notes:
+Now, we're onto the style. We're looking to make our cookie website look nice.
+
 ---
 ## Selectors
 
+![the claw | 700px](https://media.giphy.com/media/YMXpTBoVQbL9N8MKZa/giphy.gif)
 
+notes:
+The core part of CSS is not about writing content. In the same way we can't make a cookie look cool if we don't have the ingredients to make the cookie, we can't make a website look cool if we don't have HTML.
+
+Because of this, the core part of CSS is selectors. This is how we describe what part of the cookie / website, we want to style. 
+
+---
+
+### Selector types
+
+1. ✅ Element 
+2. ✅ Class
+3. ⛔ ID 
+4. ⛔ Inline 
+
+notes:
+Elements or tags, will grab all the tags of that type and apply the styles we have defined.
+
+Meanwhile classes are a property we can apply to different types of tags to style them in the same way. This gives us the chance to have more control over "categories" of elements to style.
+
+We only use these top two in the website we're building.
+
+The following two are for grabbing a single element. The `ID` option allows us to grab it from a CSS file like the rest of the selectors by defining a property. The `inline` allows us to set CSS styles directly as a property itself.
+
+---
+
+### Optional Selector Activity
+
+![Selectors Example](/Pasted%20image%2020231127154147.png)
+
+> If you're curious, you can check out this [CSS selector example](https://codepen.io/totally-not-frito-lays/pen/KKJBRmq?editors=1100).
+
+notes:
+
+After looking at the example, try looking through our website to see how we use selectors to theme everything!
 
 ---
 
 ## Theming
 
+![Dark mode vs light mode](https://miro.medium.com/v2/resize:fit:1358/1*vR-c2OlaAJLjK9ue5785rA.gif)
+
+notes:
+
+When it comes to theming a website, there are a lot of things to consider. The biggest one is a sense of identity. Just like how Christmas cookies are characterized by green, red, and blue, we can characterize our website by picking a color palette!
+
 ---
+
+### Color Palettes
+
+![Color Palette Generator](https://media4.giphy.com/media/l3fQdAyBVHxTLMeTC/giphy.gif)
+
+notes:
+So when it comes to picking colors, it's generally best to start with fewer colors and work up from there.
+
+---
+
+### How many colors do we have?
+
+> [!Question] 
+> How many colors do we use on our website?
+> (not including images)
+
+notes:
+
+We use 2 in the navigation bar, one for the primary font, one for the white font, one for the ribbon, one for the promotion banner shadow, one for the promotion banner font, two for the buttons, one for the cookie cards, one for the shadow, and two for the goals page. That's a total of 13 different colors.
+
+Well, at first glance, we use blues for the navigation, yellows for the CTAs, a red for the banner, and browns for the dividers. That's a color palette of 4.
+
+Imagine if we had a larger color palette!
+
+---
+
+### Optional CSS Variables Activity
+
+![Variables Example](/Pasted%20image%2020231127155409.png)
+
+> If you're curious, you can also check out this [CSS variables example](https://codepen.io/totally-not-frito-lays/pen/xxMJjzM).
+
+---
+
 ## Design Revisited
 
 
 ---
-## 📍Let's build
+
+## 📍JS - The Science
 - ~~HTML~~
 - ~~CSS~~
 - [🧙‍♂️ JavaScript]()
@@ -676,6 +744,9 @@ The slide below is currently hidden, this would require adding a new activity vi
 	- Loops
 	- Conditionals
 	- Web Components
+
+notes:
+
 ---
 ## Interactivity
 
