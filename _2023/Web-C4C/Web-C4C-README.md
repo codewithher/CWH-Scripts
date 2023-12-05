@@ -9,9 +9,11 @@ This project uses a base `script.md` file and uses `.canvas` files for visual ai
 Candidates for other visualization tools include [Manim](https://www.manim.community/), [Motion-Canvas](https://motioncanvas.io/), and [Blender](https://www.blender.org/)
 
 TODO
-- [ ] Reorganize Design half of the script to follow format of the second half
-- [ ] Write a new codepen for selectors
+- [x] Reorganize Design half of the script to follow format of the second half
+- [x] Write a new codepen for selectors
 - [ ] Rewrite images to use markdown links
-- [ ] Rescale images for readme
-- [ ] Rewrite images to take up their own line
+- [x] Rescale images for readme
+- [x] Rewrite images to take up their own line
 - [ ] Update promotion ribbon to be `hsl` instead of `hsla`
+
+On future re-writes, consider using an exploration-first framework to explore different aspects of the website, complete an aside, then return to the website.
