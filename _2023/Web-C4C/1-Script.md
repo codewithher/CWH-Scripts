@@ -326,7 +326,7 @@ notes:
 
 Sometimes we get lucky and our user flow is very similar to the prototype. For us, we're going to combine the two into one document. Let's look at our document.
 
-![[3-Our_Cookie_Page.canvas|Website-Our_Cookie_Page]]
+![[3-User_Flow.canvas|Website-Our_Cookie_Page]]
 
 ---
 # Let's build
@@ -537,7 +537,7 @@ The magic number we shoot for is less than 5mb.
 
 > [!Activity]
 > 
-> ![Avatar | 700px](./Assets/1-Script/1-Activity-Image.png)
+> ![Avatar | 700px](1-Activity-Image.png)
 > 
 > Change the profile picture at the bottom of the website!
 
@@ -566,7 +566,7 @@ This is a marketing tool that is used to get the audience to do something! In ou
 | | |
 | --- | --- |
 | Button | ![button](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWFobzMzNm5wc3h6OHY4em1tdWk5em5jZXk3YnJwbHM3YXBnamc0biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/o1Ge7taRvlpHd5zAFs/giphy.gif)|
-| Banner | ![banner](./Assets/1-Script/1-Activity-Banner.png) |
+| Banner | ![banner](1-Activity-Banner.png) |
 | Popup | ![popup](https://media.giphy.com/media/26n3JiXJYSF3nOTL2/giphy.gif) |
 
 notes:
@@ -635,7 +635,7 @@ The following two are for grabbing a single element. The `ID` option allows us t
 
 ### Optional Selector Activity
 
-![Selectors Example](./Assets/1-Script/1-Activity-Selectors.png)
+![Selectors Example](1-Activity-Selectors.png)
 
 > [!Optional]
 > If you're curious, you can check out this [CSS selector example](https://codepen.io/totally-not-frito-lays/pen/KKJBRmq?editors=1100).
@@ -758,7 +758,7 @@ Hit space bar to cycle the colors, the padlock to lock a color choice in and kee
 
 ### Color formats
 
-![Ice Blue](./Assets/1-Script/1-Design-Colors.png)
+![Ice Blue](1-Design-Colors.png)
 
 notes:
 There are tons of ways to describe colors. The human way is to describe it with words based on things we're familiar with like "ice blue" for a light blue. 
@@ -768,7 +768,7 @@ Another common way is with RGB, which describes how much Red, Green, or Blue is 
 ---
 ### HSL
 
-![HSL Calculator](./Assets/1-Script/1-Design-HSL.png)
+![HSL Calculator](1-Design-HSL.png)
 
 Hue Saturation Lightness
 
@@ -890,7 +890,7 @@ In the same way, Javascript allows us to move around our navigation bar.
 ---
 ## Interactivity
 
-![Types of Websites](./Assets/1-Script/1-Types-Websites.png)
+![Types of Websites](1-Types-Websites.png)
 notes:
 Remember this? JavaScript is the sauce that allows us to move between static and dynamic webpages. Static sites have almost everything written with just HTML and CSS. Dynamic sites have a lot more that is controlled by JavaScript. Usually it's generated using a design pattern known as component-based design. We'll cover more of that later.
 

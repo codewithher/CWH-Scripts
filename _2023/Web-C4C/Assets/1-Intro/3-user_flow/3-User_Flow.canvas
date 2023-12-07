@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"249a6b76c61706db","type":"group","x":-600,"y":-680,"width":1800,"height":1310,"label":"User Flow"},
+		{"id":"ce80850d289b8886","type":"group","x":480,"y":-615,"width":670,"height":520,"label":"Order Cookies Page"},
+		{"id":"02fffdce90af5d55","type":"group","x":-80,"y":-615,"width":400,"height":380,"label":"Home Page"},
+		{"id":"2da586755e647548","type":"group","x":-80,"y":175,"width":400,"height":305,"label":"Goals Page"},
+		{"id":"7d636dd27672d114","type":"group","x":-80,"y":-155,"width":400,"height":260,"label":"Cookie Page"},
+		{"id":"d06f913e019d317f","type":"group","x":-560,"y":-610,"width":290,"height":160,"label":"Header"},
+		{"id":"0917d31d503fcc62","type":"text","text":"What can my troop do now?","x":-20,"y":225,"width":250,"height":60},
+		{"id":"74b9f2a84291497d","type":"text","text":"Shop Now","x":-20,"y":285,"width":250,"height":60},
+		{"id":"54815c01abda6928","type":"text","text":"What have I learned in this project?","x":-20,"y":345,"width":250,"height":60},
+		{"id":"ef36f58ec7db5af2","type":"text","text":"View Cookie Catalog","x":-40,"y":-435,"width":250,"height":60},
+		{"id":"3e1b978df86c1ab4","type":"text","text":"Shop Now","x":-40,"y":-35,"width":250,"height":60},
+		{"id":"763187c1842d3c51","type":"text","text":"Hero","x":-40,"y":-555,"width":250,"height":60},
+		{"id":"b123dd214da45cf8","type":"text","text":"Buy Cookies","x":-40,"y":-495,"width":250,"height":60},
+		{"id":"b39c494193470a01","type":"text","text":"Cookie Container","x":-40,"y":-95,"width":250,"height":60},
+		{"id":"94c4d719116bc291","type":"text","text":"About me","x":-40,"y":-375,"width":250,"height":60},
+		{"id":"2f2f8ebca5a9df93","type":"text","text":"Navigation Bar","x":-540,"y":-590,"width":250,"height":60},
+		{"id":"fa2695b54adc0bc9","type":"text","text":"Banner","x":-540,"y":-530,"width":250,"height":60},
+		{"id":"21987444866e885f","type":"link","url":"https://www.girlscouts.org/en/cookies.html","x":510,"y":-555,"width":600,"height":400}
+	],
+	"edges":[
+		{"id":"ebef76491d2c267a","fromNode":"ef36f58ec7db5af2","fromSide":"right","toNode":"7d636dd27672d114","toSide":"right"},
+		{"id":"486a5402e47c0244","fromNode":"3e1b978df86c1ab4","fromSide":"right","toNode":"ce80850d289b8886","toSide":"left"},
+		{"id":"5b2ba03b8621d26f","fromNode":"74b9f2a84291497d","fromSide":"right","toNode":"ce80850d289b8886","toSide":"left"},
+		{"id":"ca8aaa96d08205bd","fromNode":"b123dd214da45cf8","fromSide":"right","toNode":"ce80850d289b8886","toSide":"left"},
+		{"id":"6e4111f3196aa1c9","fromNode":"2f2f8ebca5a9df93","fromSide":"right","toNode":"02fffdce90af5d55","toSide":"left"},
+		{"id":"ada200beb9814332","fromNode":"2f2f8ebca5a9df93","fromSide":"right","toNode":"7d636dd27672d114","toSide":"left"},
+		{"id":"1e6d3916053c95f9","fromNode":"2f2f8ebca5a9df93","fromSide":"right","toNode":"2da586755e647548","toSide":"left"},
+		{"id":"bccfe17de604871f","fromNode":"fa2695b54adc0bc9","fromSide":"right","toNode":"7d636dd27672d114","toSide":"left"}
+	]
+}
