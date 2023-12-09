@@ -69,6 +69,8 @@ It turns out that there are a lot of different types of tasks to fulfill for web
 
 - helps group elements together
 
+notes:
+
 > [!Optional]
 > Check out this [codepen](https://codepen.io/totally-not-frito-lays/pen/xxMJbgm?editors=1000)!
 > - Try moving the content tags around to see how it changes
@@ -84,6 +86,8 @@ It turns out that there are a lot of different types of tasks to fulfill for web
 
 - what fills the website itself
 
+notes:
+
 > [!Optional]
 > Check out this [codepen](https://codepen.io/totally-not-frito-lays/pen/RwvBNjP)!
 > - Try changing the content of each tag
@@ -98,6 +102,8 @@ It turns out that there are a lot of different types of tasks to fulfill for web
 ### Action
 
 - triggers some sort of event
+
+notes:
 
 > [!Optional]
 > Check out this [codepen](https://codepen.io/totally-not-frito-lays/pen/wvNxBPg?editors=1111)!
