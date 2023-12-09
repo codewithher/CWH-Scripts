@@ -11,10 +11,14 @@ First up is the first thing that people see on a website. The Hero Banner.
 
 > it takes [50ms](https://www.tandfonline.com/doi/abs/10.1080/01449290500330448) to form an opinion.
 
-![humming-bird](https://media.giphy.com/media/l0HlFGhHcBR77BJFS/giphy.gif)
-
 notes:
 You might've heard that first impressions are important when meeting people, well, the same is true for presenting projects to other people. In fact, we only have [50ms](https://www.tandfonline.com/doi/abs/10.1080/01449290500330448) to make a good first impression. That's as fast as it takes for a humming bird to beat it's wing once!
+
+---
+
+
+![humming-bird | 400px](https://media.giphy.com/media/l0HlFGhHcBR77BJFS/giphy.gif)
+
 
 ---
 ### What is a Hero Banner?

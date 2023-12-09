@@ -22,11 +22,33 @@ This is a marketing tool that is used to get the audience to do something! In ou
 | | |
 | --- | --- |
 | Button | ![button](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWFobzMzNm5wc3h6OHY4em1tdWk5em5jZXk3YnJwbHM3YXBnamc0biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/o1Ge7taRvlpHd5zAFs/giphy.gif)|
-| Banner | ![banner](1-Activity-Banner.png) |
+| Banner ||
+| Popup | |
+
+notes:
+There are a few different types of Call to Actions, but generally we have these 3 options. One is a button with a link to do something or visit another page. 
+
+---
+
+|        |                                                                                                                                                                                         |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Button | |
+| Banner | ![banner](./../../Assets/2-HTML/1-Activity-Banner.png)                                                                                                                                  |
+| Popup  |                                                                                                                |
+
+notes:
+Then we have Banners which are a persistent part of the website that let's us know when something is happening. 
+
+---
+
+| | |
+| --- | --- |
+| Button ||
+| Banner ||
 | Popup | ![popup](https://media.giphy.com/media/26n3JiXJYSF3nOTL2/giphy.gif) |
 
 notes:
-There are a few different types of Call to Actions, but generally we have these 3 options. One is a button with a link to do something or visit another page. Then we have Banners which are a persistent part of the website that let's us know when something is happening. Finally we have pop-ups or slide-ins. These are kinda spammy and normally force us to do something about it. It's not a really good user experience but it's good at forcing people to take action.
+Finally we have pop-ups or slide-ins. These are kinda spammy and normally force us to do something about it. It's not a really good user experience but it's good at forcing people to take action.
 
 ---
 
